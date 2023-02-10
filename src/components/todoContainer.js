@@ -10,7 +10,7 @@ import {
     fetchTodo,
     updateTask,
 } from "../api/index.js";
-
+import ShowTask from "./showTask.js";
 import Classes from "../styles/todoContainer.module.css";
 import "react-notifications-component/dist/theme.css";
 
@@ -177,6 +177,17 @@ const TodoContainer = () => {
       <div className={Classes.container}>
         {/* heading */}
         <h1>TODO APP</h1>
+        {/* component for rendering the tasks */}
+      {/* {isLoading ? (
+        <Spinner />
+      ) : ( */}
+        <ShowTask
+          todo={Todo}
+          delete={deleteHandler}
+          completed={completed}
+          updateHandler={updateHandler}
+        />
+      {/* )} */}
       </div>
     );
   };
