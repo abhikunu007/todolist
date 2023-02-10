@@ -11,6 +11,8 @@ import {
     updateTask,
 } from "../api/index.js";
 import ShowTask from "./showTask.js";
+import AddTask from "./addTask.js";
+import Spinner from "./spinner.js";
 import Classes from "../styles/todoContainer.module.css";
 import "react-notifications-component/dist/theme.css";
 
@@ -177,17 +179,25 @@ const TodoContainer = () => {
       <div className={Classes.container}>
         {/* heading */}
         <h1>TODO APP</h1>
+
+         {/* component for adding a task */}
+      <AddTask
+        addtask={addData}
+        isEdit={isEdit}
+        updateHandler={updateHandler}
+      />
+
         {/* component for rendering the tasks */}
-      {/* {isLoading ? (
+      {isLoading ? (
         <Spinner />
-      ) : ( */}
+      ) : (
         <ShowTask
           todo={Todo}
           delete={deleteHandler}
           completed={completed}
           updateHandler={updateHandler}
         />
-      {/* )} */}
+       )};
       </div>
     );
   };
