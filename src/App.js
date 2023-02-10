@@ -1,9 +1,14 @@
 
+import { ReactNotifications } from "react-notifications-component";
+import TodoContainer from "./components/todoContainer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      {/* using ReactNotifications for rendering up all the notifications */}
+      <ReactNotifications />
+      {/* Rendering the todo container component */}
+      <TodoContainer/>
     </div>
   );
 }
