@@ -1,0 +1,12 @@
+.nav {
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+    box-shadow: 3px 3px 3px rgb(79, 77, 77);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
+}
+
+img{
+  margin: 3px;
+}

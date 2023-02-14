@@ -178,7 +178,7 @@ const TodoContainer = () => {
       // container for todo app
       <div className={Classes.container}>
         {/* heading */}
-        <h1>TODO APP</h1>
+        <h1>TODO LIST</h1>
 
          {/* component for adding a task */}
       <AddTask
@@ -197,7 +197,7 @@ const TodoContainer = () => {
           completed={completed}
           updateHandler={updateHandler}
         />
-       )};
+       )}
       </div>
     );
   };

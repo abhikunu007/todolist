@@ -1,7 +1,7 @@
 .taskContainer {
     width: 90%;
-    height: 30%;
-    background-color: aqua;
+    height: 20%;
+    background-color: blueviolet;
     margin: auto;
     box-shadow: 6px 6px 4px rgb(124, 155, 155);
     margin-bottom: 20px;
@@ -38,7 +38,7 @@
     padding: 0.4rem;
     border-radius: 10px;
     letter-spacing: 0.4px;
-    background-color: red;
+    background-color: rgb(239, 214, 73);
     color: white;
     font-weight: 700;
     box-shadow: 6px 6px 4px rgb(124, 155, 155);
@@ -46,5 +46,5 @@
   
   .taskContainer form button:hover {
     cursor: pointer;
-    box-shadow: 4px 4px 3px black inset;
+    box-shadow: 4px 4px 3px black ;
   }
