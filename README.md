@@ -1,3 +1,42 @@
+
+
+# Todo List App
+
+A todo list app made using react. In this app we can fetch, show, add and update the tasks using api -  https://jsonplaceholder.typicode.com/todos .
+
+## Author
+
+- [@Abhishek Kumar](https://www.github.com/abhikunu007)
+
+
+## Deployment
+
+To see this project live click below
+ Link:- https://abhikunu007.github.io/todolist/
+
+
+## Features
+
+- We can show and fetch tasks using api -  https://jsonplaceholder.typicode.com/todos .
+- Add a todo item, make a POST call to the above url (from where you are fetching) and save the item in react state. (This will be a dummy request, you won’t be able     to add items to the server. But the request is valid and will send you some data.).
+- Update the item, make a PUT call to the above url. (Again this is a dummy call).
+- Delete an item, make a DELETE call to the above url. (Again this is a dummy call).
+
+
+## Demo
+
+![Alt text](c:/Users/Abhishek/Downloads/Todo%20List.gif)
+
+
+## Support
+
+For support, email abhishekkumaras007@gmail.com
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at abhishekkumaras007@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
