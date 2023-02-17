@@ -24,8 +24,7 @@ To see this project live click below
 
 
 ## Demo
-
-![Alt text](c:/Users/Abhishek/Downloads/Todo%20List.gif)
+![Todo List](https://user-images.githubusercontent.com/97237505/219650962-db5b8a7d-f98a-48a1-9365-ebda2960ca6f.gif)
 
 
 ## Support
